@@ -84,8 +84,9 @@ aside h3 {
   padding: 7px;
 }
 
-aside p {
-  font-size: 1.5rem;
+aside p,
+section p {
+  font-size: 2.2rem;
   padding: 8px;
 }
 
@@ -102,12 +103,41 @@ aside article img {
 
 main section {
   background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 main section h2 {
   font-size: 3rem;
   text-align: center;
   padding: 15px;
+}
+
+main section img {
+  width: 50vw;
+  max-width: 450px;
+  min-width: 280px;
+}
+
+main section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+pre {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 12px 0 10px;
+  font-size: 2rem;
+  background-color: white;
+  width: 50vw;
+  min-width: 280px;
+}
+
+code {
+  white-space: pre-wrap;
 }
 
 footer {

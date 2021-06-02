@@ -98,14 +98,80 @@
         </article>
         <article id="tags">
           <h2>Principles etiquetas de HTML</h2>
+          <p>
+            Para hacer nuestra estructura de HTML, podemos usar este codigo de
+            ejemplo.
+          </p>
+          <pre class="prettyprint lang-html">
+            <code>  
+&lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot; /&gt;
+      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+      &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot; /&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;header&gt;
+        &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
+      &lt;/header&gt;
+      &lt;main&gt;
+        &lt;aside&gt;&lt;/aside&gt;
+        &lt;section&gt;
+          &lt;article&gt;&lt;/article&gt;
+          &lt;article&gt;&lt;/article&gt;
+          &lt;article&gt;&lt;/article&gt;
+        &lt;/section&gt;
+      &lt;/main&gt;
+      &lt;footer&gt;&lt;/footer&gt;
+      &lt;style&gt;&lt;/style&gt;
+    &lt;/body&gt;
+  &lt;/html&gt; 
+          </code>
+          </pre>
         </article>
         <article id="styles">
           <h2>¿Como se le aplica estilos a una web?</h2>
+          <p>
+            Para aplicar estilos a una web necesitamos usar CSS, este lo podemos
+            escribir dentr de una etiqueta llamada style
+          </p>
+          <p>Anatomia de una etiueta de CSS</p>
+          <img
+            src="https://mdn.mozillademos.org/files/11925/csspartes.png"
+            alt="Anatomia de una etiqueta de CSS"
+          />
+          <p>Ejemplo de codigo en css</p>
+          <pre class="prettyprint lang-html">
+            <code>
+&lt;style&gt;
+  body {
+    background-color: blue; /* Cambia el color del fondo */
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif; /* Cambia la fuente de un texto */
+  }
+  p {
+    font-size: 17px; /* cambia el tamaño de un texto */
+  }
+&lt;/style&gt;
+            </code>
+          </pre>
         </article>
       </section>
     </main>
     <footer>
-      <p>Pagina hecha HTML & CSS por Juan Almanza.</p>
+      <p>
+        Pagina hecha con HTML & CSS y un poco de javascript por Juan Almanza :)
+      </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   </body>
 </html>
